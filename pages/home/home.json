@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "ly-recommend": "./child-components/ly-recommend/ly-recommend",
+    "ly-feature": "./child-components/ly-feature/ly-feature",
+    "ly-swiper": "/components/ly-swiper/ly-swiper",
+    "ly-tab-control": "/components/ly-tab-control/ly-tab-control",
+    "ly-goods": "/components/ly-goods/ly-goods",
+    "ly-back-top": "/components/ly-back-top/ly-back-top"
+  }
+}

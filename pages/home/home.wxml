@@ -1,0 +1,21 @@
+<!--pages/home/home.wxml-->
+<view class='home'>
+  <view hidden='{{!showTabControl}}'>
+    <ly-tab-control class='tab-control-temp' 
+                 titles="{{titles}}" 
+                 bind:tabclick="tabClick"/>
+  </view>
+  <scroll-view class='content' 
+              scroll-y 
+              bindscrolltolower="loadMore"
+              scroll-with-animation="true"
+              scroll-top="{{topPosition}}"
+              bindscroll="scrollPosition">
+    <ly-swiper images="{{banners}}"/>
+    <ly-recommend recommends="{{recommends}}" bind:imageLoad="onImageLoad"/>
+    <ly-feature/>
+    <ly-tab-control class='tab-control' titles="{{titles}}" bind:tabclick="tabClick"/>
+    <ly-goods goodslist="{{goods[currentType].list}}"/>
+    <ly-back-top bindtap="onBackTop" wx:if="{{showBackTop}}"/>
+  </scroll-view> 
+</view>

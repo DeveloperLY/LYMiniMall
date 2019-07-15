@@ -1,0 +1,4 @@
+/* pages/home/child-components/ly-feature/ly-feature.wxss */
+.feature image {
+  width: 100%;
+}
