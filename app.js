@@ -27,5 +27,27 @@ App({
    */
   onError: function (msg) {
     
+  },
+
+  addToCart(obj) {
+    // 判断是否已经添加进到购物车中
+    const oldInfo = this.globalData.cartList.find((item) => item.iid === obj.iid)
+    if (oldInfo) {
+      oldInfo.count += 1
+    } else {
+      obj.count = 1
+      obj.checked = true
+      this.globalData.cartList.push(obj)
+    }
+
+    // 购物车回调
+    if (this.addCartCallback) {
+      this.addCartCallback()
+    }
+  },
+
+  // 全局变量
+  globalData: {
+    cartList: []
   }
 })

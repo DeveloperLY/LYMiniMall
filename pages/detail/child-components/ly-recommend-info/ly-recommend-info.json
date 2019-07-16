@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "ly-goods": "/components/ly-goods/ly-goods"
+  }
+}

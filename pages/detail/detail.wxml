@@ -1,2 +1,12 @@
 <!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+<scroll-view class='detail'
+             scroll-y>
+  <ly-swiper class='d-swiper' images="{{topImages}}"/>
+  <ly-base-info baseInfo="{{baseInfo}}"/>
+  <ly-shop-info shopInfo="{{shopInfo}}"/>
+  <ly-detail-info detailInfo="{{detailInfo}}"/>
+  <ly-param-info paramInfo="{{paramInfo}}"/>
+  <ly-comment-info commentInfo="{{commentInfo}}"/>
+  <ly-recommend-info recommends="{{recommends}}"/>
+</scroll-view>
+<ly-bottom-bar bind:addcart="onAddCart"/>

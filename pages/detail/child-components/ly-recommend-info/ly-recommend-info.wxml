@@ -1,0 +1,7 @@
+<!--pages/detail/child-components/ly-recommend-info/ly-recommend-info.wxml-->
+<view class='recommend'>
+  <view class='header'>商品推荐</view>
+  <view class='content'>
+    <ly-goods goodslist="{{recommends}}"/>
+  </view>
+</view>

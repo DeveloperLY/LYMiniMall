@@ -1,3 +1,13 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "ly-swiper": "/components/ly-swiper/ly-swiper",
+    "ly-base-info": "./child-components/ly-base-info/ly-base-info",
+    "ly-shop-info": "./child-components/ly-shop-info/ly-shop-info",
+    "ly-detail-info": "./child-components/ly-detail-info/ly-detail-info",
+    "ly-param-info": "./child-components/ly-param-info/ly-param-info",
+    "ly-comment-info": "./child-components/ly-comment-info/ly-comment-info",
+    "ly-recommend-info": "./child-components/ly-recommend-info/ly-recommend-info",
+    "ly-bottom-bar": "./child-components/ly-bottom-bar/ly-bottom-bar"
+  },
+  "navigationBarTitleText": "商品详情"
 }
