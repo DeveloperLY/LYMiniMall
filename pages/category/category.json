@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "ly-menu": "./child-components/ly-menu/ly-menu",
+    "ly-content": "./child-components/ly-content/ly-content"
+  },
+  "navigationBarTitleText": "商品分类"
 }
