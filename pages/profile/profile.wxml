@@ -1,2 +1,7 @@
 <!--pages/profile/profile.wxml-->
-<text>pages/profile/profile.wxml</text>
+<view class='profile'>
+  <ly-header/>
+  <ly-info/>
+  <ly-list-view infos="{{orderList}}"/>
+  <ly-list-view infos="{{serviceList}}"/>
+</view>

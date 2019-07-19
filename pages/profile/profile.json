@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "ly-header": "./child-components/ly-header/ly-header",
+    "ly-info": "./child-components/ly-info/ly-info",
+    "ly-list-view": "./child-components/ly-list-view/ly-list-view"
+  },
+  "navigationBarTitleText": "我的信息"
 }
