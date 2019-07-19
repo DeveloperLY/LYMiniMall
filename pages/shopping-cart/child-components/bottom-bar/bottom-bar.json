@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "ly-check-icon": "/components/ly-check-icon/ly-check-icon"
+  }
+}
